@@ -3,15 +3,15 @@ package com.example;
 public class TiposDeDatosPrimitivos {
     public static void demostarEnteros()
     {
-        byte rangoByte = 10;
+        byte rangoByte = 100;
         short rangoShort = 200;
         int rangoInt = 12;
         long rangoLong = 100L;
 
-        System.out.println("Byte: " + rangoByte);
-        System.out.println("Short: " + rangoShort);
-        System.out.println("Int: " + rangoInt);
-        System.out.println("Long: " + rangoLong);
+        System.out.println("Ejemplo de Byte: " + rangoByte);
+        System.out.println("ejemplo de Short: " + rangoShort);
+        System.out.println("Ejemplo de Int: " + rangoInt);
+        System.out.println("Ejemplo de Long: " + rangoLong);
     }
     public static void demostrarFlotantes(){
         float numeroFLoat = 2.43f;
