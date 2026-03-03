@@ -1,7 +1,7 @@
 package com.example;
 
 public class TiposDeDatosPrimitivos {
-    public static void demostarEnteros()
+    public static void demostrarEnteros()
     {
         byte rangoByte = 100;
         short rangoShort = 200;
@@ -27,12 +27,12 @@ public class TiposDeDatosPrimitivos {
 
         System.out.println("La letra es: " + letra);
     }
-    public static void demostarBooleanos() {
+    public static void demostrarBooleanos() {
         boolean mayorDeEdad = true;
 
         System.out.println("La persona es mayor de edad? :" + mayorDeEdad);
     }
-    public static void demostarValoresPorDefecto(){
+    public static void demostrarValoresPorDefecto(){
         // Los valores por defecto SOLO aplican a variables de instancia o de clase,
         // NO a variables locales. Por eso aquí solo lo explicamos.
 
